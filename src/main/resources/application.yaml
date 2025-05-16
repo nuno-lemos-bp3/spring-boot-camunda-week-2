@@ -1,0 +1,29 @@
+#camunda:
+#  client:
+#    mode: self-managed
+#    zeebe:
+#      enabled: true
+#      grpc-address: http://127.0.0.1:26500
+#      rest-address: http://127.0.0.1:8080
+
+camunda:
+  client:
+    mode: saas
+    auth:
+      client-id: mzp38nrHA7WnwRWJrzYGhMdRcpHu2B88
+      client-secret: led6J.-R.mO5NBAaKilN2oot9JHFlb8SlYh8T8L3Q6FW0B8SXe4bZSL-ccBosS78
+    cloud:
+      cluster-id: 84d49f1b-de85-4c38-a68b-50d7c2139d40
+      region: bru-2
+
+
+spring:
+  mail:
+    host: codexdigital.pt
+    port: 465
+    username: info@codexdigital.pt
+    password: madeirA#funchaL20Nuno
+    protocol: smtp
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.ssl.enable: true
